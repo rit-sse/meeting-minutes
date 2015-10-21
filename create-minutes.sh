@@ -21,6 +21,7 @@ function create {
     printf "\n###Topic\n* Bullet point" >> ./$1.md
 
     printf "Created file: ./$1.md\n"
+    printf "Remember to move the new file into the appropriate year folder.\n"
 }
 
 function create_from_input_date {
